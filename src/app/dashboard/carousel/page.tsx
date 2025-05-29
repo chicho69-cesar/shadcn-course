@@ -2,15 +2,15 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
+// import Autoplay from "embla-carousel-autoplay";
 
 export default function Page() {
   return (
     <div className="w-full flex justify-center">
       <Carousel
         className="w-full"
-        // autoplay={ 1000 }
-        plugins={[Autoplay({ delay: 1000 })]}
+        autoplay={ 1500 }
+        // plugins={[Autoplay({ delay: 1000 })]}
         opts={{
           dragFree: true,
           loop: true,
