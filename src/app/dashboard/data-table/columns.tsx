@@ -175,6 +175,7 @@ export const columns: ColumnDef<Payment>[] = [
 
                 toast("Payment ID copied to clipboard", {
                   position: "top-right",
+                  duration: 3000
                 });
 
                 // toast({
